@@ -34,6 +34,7 @@ def total_even_pairs(src)
   i = 0 
   while i < src.count do 
     src[i]
+    binding.pry
     when src[i][0].even? and src[i][1].even?
       sum = src[i][0] + src[i][1]
       total + sum 
