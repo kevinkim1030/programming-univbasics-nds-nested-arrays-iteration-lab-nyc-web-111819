@@ -36,7 +36,7 @@ def total_even_pairs(src)
     src[i]
     binding.pry
     
-    end
+   
     i += 1 
   end
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
